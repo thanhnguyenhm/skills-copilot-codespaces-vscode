@@ -4,7 +4,7 @@
 // 3. load the comments.json file
 // 4. send the json file back to the client
 
-// 1. create a web server
+// 1. Create web server
 var http = require('http');
 var fs = require('fs');
 var server = http.createServer(function(req, res){
